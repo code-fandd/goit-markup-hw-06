@@ -1169,3 +1169,12 @@ css
 }
 @media screen and (min-width: 1158px) {
 }
+@media screen and (max-width: 767.98px) {
+  .modal {
+    width: 288px;
+    min-height: 623px;
+  }
+  .modal-title {
+    width: 256px;
+  }
+}
