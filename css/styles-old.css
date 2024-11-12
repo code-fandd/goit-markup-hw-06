@@ -1,0 +1,53 @@
+/*  ///////////// footer  ///////////// */
+
+.box {
+  display: block;
+}
+
+.effect-dop {
+  justify-content: flex-start;
+}
+
+/*sub*/
+.subscribe-title {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+/**/
+
+/* Header*/
+
+.nav-link-first {
+  display: inline-block;
+  color: var(
+    --c-primary-dunckel
+  ); /*1111  У першому пункті меню у посилання в класі заданий 
+  стиль color: var(--c-primary-dunckel); для визначення кольору тексту*/
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 24px 0;
+  position: relative;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-item:active {
+  color: var(--c-primary-dunckel);
+}
+
+.nav-link-first::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  width: 48px;
+  background-color: var(--c-primary-dunckel);
+  border-radius: 2px;
+}
